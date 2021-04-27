@@ -19,7 +19,7 @@
 %             [soln] = comp_trap(func, a, b, N);
 
 
-function [num] = comp_trap(func, h)
+function [num] = comp_trap(func, a, b, N)
     
         % Step size
         h = (b-a) / N;
@@ -38,5 +38,4 @@ function [num] = comp_trap(func, h)
         
         num = sum * h * 0.5;
         
-
 end 
