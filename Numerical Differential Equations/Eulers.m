@@ -1,4 +1,4 @@
-% Solving IVP of first order ODEs.
+% Solving IVP of first order ODEs with Euler's Method.
 % 
 %     u' = f(u,t)
 %     u(t_0) = u_0
